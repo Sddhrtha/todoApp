@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.container
+{
+    margin: auto;
+    max-width: 500px;
+    height: 650px;
+    border: solid 2px black;
+    border-radius: 10px;
+    box-shadow: 8px 8px gray;
+    background-color: greenyellow;
+}
+
+.container h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+#to-do-list {
+    width: 85%;
+    height: 72%;
+    margin: 0px 0px 0px 40px;
+}
+
+.list-item{
+    height: 50px;
+    margin: 0px 0px 7px 0px;
+}
+
+.list-item-checkbox {
+    height: 40px;
+    width: 20px;
+    margin: 5px 0px 0px 15px;
+    float: left;
+}
+
+.list-item-text{
+    height: 50%;
+    margin: 0px 0px 0px 20px;
+    padding: 8px 0px 5px 0px;
+    float: left;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textbox{
+    border-radius: 10px ;
+    font-size: 20px;
+    height: 30px;
+    width: 85%;
+    margin: 7px 0px 0px 5px;
+}
+
+#add-button {
+
+    background-color: #000000  ;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding-top: 7px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    height: 5%;
+    border-radius: 20px;
+    box-shadow: 3px 5px grey;
+}
